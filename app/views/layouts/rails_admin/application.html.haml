@@ -4,7 +4,7 @@
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
     %meta{:content => "NONE,NOARCHIVE", :name => "robots"}
     = csrf_meta_tag
-    = stylesheet_link_tag "rails_admin/rails_admin.css", :media => :all
+    = stylesheet_link_tag "//grouper-assets.s3.amazonaws.com/rails_admin.css", :media => :all
     = javascript_include_tag "rails_admin/rails_admin.js"
   %body.rails_admin
     #loading.label.label-warning{:style => 'display:none; position:fixed; right:20px; bottom:20px; z-index:100000'}= t('admin.loading')
